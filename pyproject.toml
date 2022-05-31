@@ -1,11 +1,14 @@
 [tool.poetry]
 name = "delta-lake-getting-started"
 version = "0.1.0"
-description = ""
+description = "Project to follow the official Delta Lake - Getting Started Tutorial (https://delta.io/learn/getting-started)"
 authors = ["alex carvalho <alex.carvaho.data@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+pyspark = "3.2.1"
+delta-spark = "^1.2.1"
+jupyter = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
